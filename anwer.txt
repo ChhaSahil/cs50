@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Big O notation for sort1 is O(n*2) and Big Omega notation is n
+
+sort2 uses:Merge Sort
+
+How do you know?: Big O notation for sort2 is O(logn) and Big Omega notation is logn
+
+sort3 uses: Selection Sort
+
+How do you know?: Big O notation for sort3 is O(n*2) and Big Omega notation is n*n
