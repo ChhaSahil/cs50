@@ -5,7 +5,7 @@ import sys
 import random
 
 # Number of simluations to run
-N = 1000
+N = 1001
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
         sys.exit("Usage: python tournament.py FILENAME")
 
     teams = []
-    # Read teams into memory from file
+    # Read teams into memory from file as csv
     with open(sys.argv[1]) as file:
         reader = csv.DictReader(file)
         for team in reader:
